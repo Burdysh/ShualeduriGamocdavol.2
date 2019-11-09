@@ -2,7 +2,7 @@ import java.lang.NumberFormatException
 import java.math.BigInteger
 import java.util.*
 
-//class Human
+//class Man
 //{
 //    fun think()
 //    {
@@ -12,11 +12,11 @@ import java.util.*
 //
 //fun main(args: Array<String>)
 //{
-//    var mayank = Human()
+//    var mayank = Man()
 //    mayank.think()
 //}
 
-open class Human
+open class Man
 {
     open fun think()
     {
@@ -24,7 +24,7 @@ open class Human
     }
 }
 
-class Alien : Human()
+class Alien : Man()
 {
     override fun think()
     {
@@ -34,6 +34,6 @@ class Alien : Human()
 
 fun main(args: Array<String>)
 {
-    var mayank : Human = Alien()
+    var mayank : Man = Alien()
     mayank.think()
 }
